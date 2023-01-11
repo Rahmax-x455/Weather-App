@@ -1,0 +1,85 @@
+body {
+    background-image: url("look-rock-observation-tower-lightning-03-15-12.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 1000px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    height: 100vh;
+    color: #bba9c5;
+    grid-gap: 0.3em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+    margin: 20px;
+    text-align: center;
+}
+
+.entry {
+    background: #110f12;
+    height: 140%;
+
+}
+
+#entryHolder {}
+
+#date {}
+
+#temp {}
+
+#content {}
+
+.headline {}
+
+.title {}
+
+label {
+    display: block;
+    font-size: 27px;
+    color: #bba9c5;
+    text-align: left;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+
+}
+
+
+button {
+    margin: 60px 0px 60px 445px;
+    width: 200px;
+    height: 40px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+h1 {
+    font-size: 36px;
+
+
+}
+
+textarea {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    height: 90%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
