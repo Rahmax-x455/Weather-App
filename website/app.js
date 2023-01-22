@@ -1,6 +1,6 @@
 /* Global Variables */
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?"
-const API_KEY = "c39428c59dce92ce9245eb4ceba63123"
+const API_KEY = "c39428c59dce92ce9245eb4ceba63123&units=imperial"
 let btn = document.getElementById("generate")
 let userFeeling = document.getElementById("feelings")
 let tempDiv = document.getElementById("temp")
